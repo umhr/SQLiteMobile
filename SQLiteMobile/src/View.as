@@ -141,6 +141,8 @@ package
 			var type:String = _date.text;
 			
 			var byteArray:ByteArray = new ByteArray();
+			
+			// http://hakuhin.jp/as3/bitmap.html#BITMAP_10
 			var bitmapData:BitmapData = new BitmapData(80, 20, false, 0xFFFFFFFF);
 			var rand:int = Math.floor(Math.random() * 0xFFFF);
 			bitmapData.perlinNoise(80 ,20 , 1 , rand , false , true , (8|4|2|1));
