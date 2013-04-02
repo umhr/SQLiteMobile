@@ -1,1 +1,3 @@
-cert/
+cert/ios.p12
+cert/SQLiteMobile.mobileprovision
+bat/SetupApplication.bat
